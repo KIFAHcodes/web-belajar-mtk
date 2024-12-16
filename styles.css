@@ -90,3 +90,29 @@ body {
     margin-top: auto; /* Memastikan footer selalu di bawah */
     font-size: 0.9rem;
 }
+/* Media Query untuk layar dengan lebar maksimum 600px (ukuran mobile) */
+@media screen and (max-width: 600px) {
+    .header {
+        font-size: 1.5rem; /* Perkecil ukuran font header */
+        padding: 0.5rem; /* Kurangi padding header */
+    }
+
+    .content p {
+        font-size: 1rem; /* Sesuaikan ukuran teks */
+    }
+
+    .card-container {
+        flex-direction: column; /* Susun kartu ke bawah */
+        gap: 1rem; /* Tambahkan jarak antar kartu */
+    }
+
+    .card {
+        width: 80%; /* Lebarkan kartu agar lebih proporsional */
+        margin: 0 auto; /* Pusatkan kartu */
+    }
+
+    .btn {
+        font-size: 0.9rem; /* Perkecil ukuran tombol */
+        padding: 0.4rem 0.8rem; /* Kurangi padding tombol */
+    }
+}
